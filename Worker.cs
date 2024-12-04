@@ -71,7 +71,7 @@ namespace workerBinanceKaydet
                 string dateString = now.Year.ToString() + "-" + (100 + now.Month).ToString().Substring(1) + "-" + (100 + now.Day).ToString().Substring(1) + " 09:09:00,000";
                 DateTime dtStart = DateTime.ParseExact(dateString, "yyyy-MM-dd HH:mm:ss,fff", CultureInfo.InvariantCulture);
 
-                dateString = dateString = now.Year.ToString() + "-" + (100 + now.Month).ToString().Substring(1) + "-" + (100 + now.Day).ToString().Substring(1) + " 18:18:00,000";
+                dateString = dateString = now.Year.ToString() + "-" + (100 + now.Month).ToString().Substring(1) + "-" + (100 + now.Day).ToString().Substring(1) + " 18:36:00,000";
                 DateTime dtEnd = DateTime.ParseExact(dateString, "yyyy-MM-dd HH:mm:ss,fff", CultureInfo.InvariantCulture);
 
                 if (now < dtStart || now > dtEnd)
